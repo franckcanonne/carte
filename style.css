@@ -1,0 +1,155 @@
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans) !important;
+
+* {
+  position: relative !important;
+  color: #000 !important;
+  font-size: 14px !important;
+  font-family: 'Droid Sans', sans-serif !important;
+}
+
+a,
+a:link,
+a:hover,
+a:visited {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: red !important;
+}
+
+#POSITION-RELATIVE,
+#position-relative,
+* {
+  position: relative !important;
+}
+
+#FLOAT-LEFT,
+.float-left {
+  float: left !important;
+}
+
+#CLEAR,
+.clear {
+  clear: both !important;
+}
+
+#CENTER,
+.center {
+  text-align: center !important;
+}
+
+#BOLD,
+.bold {
+  font-weight: bold !important;
+}
+
+#CARD,
+.card,
+.card-helper,
+.card:before,
+.card:after {
+  
+  width: 320px !important;
+  height: 160px !important;
+
+  box-shadow: -4px 4px 24px rgba(0, 0, 0, 0.5) !important;
+
+  padding: 20px !important;
+  border-radius: 8px !important;
+
+  background: #fff !important;
+}
+
+.card {
+  transform: rotate(-40deg) rotateX(20deg) rotateY(30deg) !important;
+  -webkit-transform: rotate(-40deg) rotateX(20deg) rotateY(30deg) !important;
+  margin: 80px auto !important;
+}
+
+.card-helper {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.card:before,
+.card:after {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  
+  background-image: url("https://bit.ly/14bsqFY") !important;  
+  background-repeat: no-repeat !important;
+  background-position: 20px 20px !important;
+  background-size: 130px !important;
+}
+
+.card:before {
+  transform: rotate(8deg) !important;
+  -webkit-transform: rotate(8deg) !important;
+  top: -20px !important;
+  z-index: -1 !important;
+}
+
+.card:after {
+  transform: rotate(16deg) !important;
+  -webkit-transform: rotate(16deg) !important;
+  top: -40px !important;
+  z-index: -2 !important;
+}
+
+.image {
+  margin: 0 20px 15px 0 !important;
+}
+
+.image img {
+  width: 130px !important;
+  height: 130px !important;
+  border-radius: 4px !important;
+}
+
+.title {
+  font-size: 32px !important;
+}
+  
+.card:hover {
+  transform: none !important;
+  -webkit-transform: none !important;
+}
+
+
+.card:hover:before,
+.card:hover:after {
+  top: 0 !important;
+}
+
+.card:hover:before {
+  transform: rotate(-32deg) rotateX(20deg) rotateY(30deg) !important;
+  -webkit-transform: rotate(-24deg) rotateX(20deg) rotateY(30deg) !important;
+
+}
+
+.card:hover:after {
+  transform: rotate(-32deg) rotateX(20deg) rotateY(30deg) !important;
+  -webkit-transform: rotate(-32deg) rotateX(20deg) rotateY(30deg) !important;
+}
+
+.card,
+.card:before,
+.card:after,
+.card:hover,
+.card:hover:before,
+.card:hover:after {
+  transition: all 0.8s ease-in-out !important;
+  -webkit-transition: all 0.8s ease-in-out !important;
+}
+
+.card,
+.card:before,
+.card:after {
+  transition-delay: 0.8s !important;
+  -webkit-transition-delay: 0.8s !important;
+}
